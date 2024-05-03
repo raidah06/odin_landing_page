@@ -63,9 +63,7 @@ a{
     color:#f9faf8;
   
 }
-.info{
-    background-color:pink;
-}
+
 .header button{
     background-color:#3882f6;
     color:#f9faf8;
@@ -74,3 +72,23 @@ a{
     padding:8px;
 
 }
+/* creating the information section */
+.info{
+    text-align:center;
+}
+.info-title{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:bolder;
+    margin-bottom:32px;
+}
+.info-contain{
+    display:flex;
+    justify-content:center;
+    gap:22px;
+}
+.information{
+    max-width:200px;
+    
+}
+
