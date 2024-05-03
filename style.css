@@ -91,4 +91,26 @@ a{
     max-width:200px;
     
 }
+/* quotes section */
+.quotes{
+    display:flex;
+    
+    background-color:#e5e7eb;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+.quote{
+    font-size:36px;
+    color:#1F2937;
+    font-style: italic;
+    max-width:400px;
+    
+
+}
+.quoter{
+    margin-left:80%;
+    font-weight:bold;
+    font-size:20px;
+}
 
