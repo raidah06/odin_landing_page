@@ -113,4 +113,48 @@ a{
     font-weight:bold;
     font-size:20px;
 }
+/* banner section */
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+  
+}
+.banner-contain{
+    width:800px;
+    
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color:#3882f6;
+    display:flex;
+}
+.banner .left-side,.banner .right-side{
+    display:flex;
+    flex:1;
+   
+    justify-content: center;
+    align-items:center;
+    height:100px;
+    flex-basis:200px;
 
+}
+.banner .left-side{
+    flex-direction:column;
+}
+.banner .title{
+    color:#f9faf8;
+    font-size:30px;
+    
+}
+.banner .text{
+    color:#e5e7eb;
+    font-size:20px;
+}
+.banner button{
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 25%;
+    max-height:30px;
+    color:#f9faf8;
+}
