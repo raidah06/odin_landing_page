@@ -17,6 +17,8 @@ img{
     background-color:#1F2937;
     display:flex;
     width:1000px;
+    padding:30px;
+    margin-bottom:40px;
 
     
 }
@@ -84,6 +86,8 @@ a{
 }
 .info-contain{
     display:flex;
+    padding:30px;
+    margin:30px;
     justify-content:center;
     gap:22px;
 }
@@ -98,6 +102,8 @@ a{
     background-color:#e5e7eb;
     flex-wrap:wrap;
     justify-content:center;
+    padding:60px;
+    margin-bottom:20px;
 
 }
 .quote{
@@ -157,4 +163,11 @@ a{
     border-radius: 25%;
     max-height:30px;
     color:#f9faf8;
+}
+/* footer section */
+.footer{
+    background-color: #1F2937;
+    color:#f9faf8;
+    font-size:20px;
+    padding:40px;
 }
